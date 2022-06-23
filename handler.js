@@ -44,7 +44,7 @@ module.exports = {
         global.week = d.toLocaleDateString(locale, { weekday: 'long' })
         global.date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
         global.weton = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][Math.floor(d / 84600000) % 7]
-        global.dateIndia = Intl.DateTimeFormat("en-US", "Asia/Delhi");
+        global.dateIndia = Intl.DateTimeFormat("en-US", "Asia/Colombo");
         global.user = Object.keys(global.db.data.users).length
         global.users = Object.values(global.db.data.users).filter(user => user.registered == true).length
         let _uptime = process.uptime() * 1000
@@ -73,7 +73,7 @@ module.exports = {
                                 },
                message: {
                             documentMessage: {
-                            title: 'ᴍɪʟʟɪᴇ-ᴍᴅ', 
+                            title: 'ᴀꜱɪᴀᴛᴀ-ᴍᴅ', 
                             jpegThumbnail: thumburl
                                   }
                                 }
@@ -90,8 +90,8 @@ module.exports = {
                 "groupInviteMessage": {
                     "groupJid": "120363040549014341@g.us",
                     "inviteCode": "BcOf8vB5KAlFQhb3c5d06b",
-                    "groupName": "ᴍɪʟʟɪᴇ-ᴍᴅ", 
-                    "caption": "ɴᴇᴇʀᴀᴊ-x0", 
+                    "groupName": "ᴀꜱɪᴀᴛᴀ-ᴍᴅ", 
+                    "caption": "ᴀꜱɪᴀᴛᴀ-ᴍᴅ", 
                     'jpegThumbnail': thumburl
                 }
             }
@@ -103,7 +103,7 @@ module.exports = {
                                 },
                message: {
                             locationMessage: {
-                            name: 'ᴍɪʟʟɪᴇ-ᴍᴅ',
+                            name: 'ᴀꜱɪᴀᴛᴀ-ᴍᴅ',
                             jpegThumbnail: thumburl
                                   }
                                 }
@@ -116,10 +116,10 @@ module.exports = {
                        },
             message: { 
                         "videoMessage": { 
-                        "title":"ᴍɪʟʟɪᴇ-ᴍᴅ",
-                        "h": `ɴᴇᴇʀᴀᴊ-x0`,
+                        "title":"ᴀꜱɪᴀᴛᴀ-ᴍᴅ",
+                        "h": `ᴀꜱɪᴀᴛᴀ-ᴍᴅ`,
                         'seconds': '404', 
-                        'caption': 'ᴍɪʟʟɪᴇ-ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ',
+                        'caption': 'ᴀꜱɪᴀᴛᴀ-ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ',
                         'jpegThumbnail': thumburl
                                }
                               }
@@ -151,11 +151,11 @@ module.exports = {
                             "mimetype": "image/jpeg",
                             "jpegThumbnail": thumburl
                         },
-                        "title": "ᴍɪʟʟɪᴇ-ᴍᴅ",
-                        "description": "ɴᴇᴇʀᴀᴊ-x0",
+                        "title": "ᴀꜱɪᴀᴛᴀ-ᴍᴅ",
+                        "description": "ᴀꜱɪᴀᴛᴀ-ᴍᴅ",
                         "currencyCode": "USD",
                         "priceAmount1000": "404000000",
-                        "retailerId": "ᴍɪʟʟɪᴇ-ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ",
+                        "retailerId": "ᴀꜱɪᴀᴛᴀ-ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ",
                         "productImageCount": 404
                     },
                     "businessOwnerJid": `0@s.whatsapp.net`
@@ -173,8 +173,8 @@ module.exports = {
                                     itemCount : 404,
                                     itemCoun : 404,
                                     surface : 404,
-                                    message: 'ᴍɪʟʟɪᴇ-ᴍᴅ',
-                                    orderTitle: 'ɴᴇᴇʀᴀᴊ-x0B',
+                                    message: 'ᴀꜱɪᴀᴛᴀ-ᴍᴅ',
+                                    orderTitle: 'ᴀꜱɪᴀᴛᴀ-ᴍᴅ',
                                     thumbnail: thumburl, 
                                     sellerJid: '0@s.whatsapp.net'
                   
@@ -193,7 +193,7 @@ module.exports = {
         global.td = pickRandom([jax, jbx, jcx, jdx, jex])
         
         //global.nd = pickRandom(['𝐓𝐄𝐀𝐌-𝐄𝐋𝐄𝐂𝐓𝐑𝐀', '𝗧𝗘𝗔𝗠-𝗘𝗟𝗘𝗖𝗧𝗥𝗔', '𝘛𝘌𝘈𝘔-𝘌𝘓𝘌𝘊𝘛𝘙𝘈 ', '𝙏𝙀𝘼𝙈-𝙀𝙇𝙀𝘾𝙏𝙍𝘼', '𝚃𝙴𝙰𝙼-𝙴𝙻𝙴𝙲𝚃𝚁𝙰', 'ƬΣΛM-ΣᄂΣᄃƬЯΛ', 'тєαм-єℓє¢тяα', '†ÈÄM-ÈLÈÇ†RÄ', 'ᴛᴇᴀᴍ-ᴇʟᴇᴄᴛʀᴀ', '𝓣𝓔𝓐𝓜-𝓔𝓛𝓔𝓒𝓣𝓡𝓐', '𝓉𝑒𝒶𝐌-乇ᒪ𝒆℃Ŧ𝓻𝐀𝕝', '𝒯𝐸𝒜𝑀-𝐸𝐿𝐸𝒞𝒯𝑅𝒜 ', '𝒯𝐸𝒜𝑀-𝐸𝐿𝐸𝒞𝒯𝑅𝒜', '𝕋𝔼𝔸𝕄-𝔼𝕃𝔼ℂ𝕋ℝ𝔸', '🅃🄴🄰🄼-🄴🄻🄴🄲🅃🅁🄰', 'ₜₑₐₘ₋ₑₗₑCₜᵣₐ', 'ȶɛǟʍ-ɛʟɛƈȶʀǟ'])
-        global.time = require('moment-timezone').tz('Asia/Kolkata').format('HH:mm:ss')
+        global.time = require('moment-timezone').tz('Asia/Colombo').format('HH:mm:ss')
 
         
       
