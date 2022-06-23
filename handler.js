@@ -44,7 +44,7 @@ module.exports = {
         global.week = d.toLocaleDateString(locale, { weekday: 'long' })
         global.date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
         global.weton = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][Math.floor(d / 84600000) % 7]
-        global.dateIndia = Intl.DateTimeFormat("en-US", "Asia/Delhi");
+        global.dateIndia = Intl.DateTimeFormat("en-US", "Asia/Colombo");
         global.user = Object.keys(global.db.data.users).length
         global.users = Object.values(global.db.data.users).filter(user => user.registered == true).length
         let _uptime = process.uptime() * 1000
