@@ -1,8 +1,8 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/mrsanon1/Asiata-MD /root/Neerajx0
+RUN git clone https://github.com/mrsanon1/Asiata-MD /root/Asiata-MD
 
-WORKDIR /root/Neerajx0/
+WORKDIR /root/Asiata-MD/
 
 RUN apt-get update && \
   apt-get install -y \
