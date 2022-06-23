@@ -1,8 +1,8 @@
 {
-  "name": "Millie-MD",
-  "logo": "https://raw.githubusercontent.com/Neeraj-x0/Millie/main/Millie/millie.jpg",
+  "name": "Asiata-MD",
+  "logo": "https://telegra.ph/file/751bab3a465bbe2500948.jpg",
   "description": "WhatsApp Bot",
-  "repository": "https://github.com/Neeraj-x0/Millie-MD",
+  "repository": "https://github.com/mrsanon1/Asiata-MD",
   "keywords": ["bot","whatsapp","whatsapp-bot"],
   "env": {
  "SESSION_ID": {
