@@ -19,7 +19,7 @@ global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user
 
 global.devx = 'false'
 
-global.owner = ["918113921898"]
+global.owner = ["94766816809"]
 global.APIs = { // API Prefix
 //======= name: 'https://website' ========//
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -43,21 +43,21 @@ global.APIKeys = { // APIKey Here
 
  
 global.ucpn = ''
-global.linkgc = 'https://chat.whatsapp.com/HZ4c5yrsd0g8OfELZGySFZ'
-global.linkig = 'https://www.instagram.com/neer_j_  '
-global.linkyt = 'https://www.youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA'
-global.linkfb = 'https://fb.watch/aYv0jAffAO'
-global.git = 'https://github.com/Neeraj-x0'
-global.web1 = 'https://neeraj-x0.github.io/'
-global.url = 'https://chat.whatsapp.com/HZ4c5yrsd0g8OfELZGySFZ'
+global.linkgc = 'https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb'
+global.linkig = 'https://www.instagram.com/Thisan '
+global.linkyt = 'https://youtube.com/channel/UCCqExh2u6Cf1apVOdvbbRIg'
+global.linkfb = 'https://fb.watch/'
+global.git = 'https://github.com/mrsanon'
+global.web1 = 'https://Thisan04.github.io/'
+global.url = 'https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb'
 
 //HEROKU  VARS
 global.thumburl = process.env.IMAGE || 'https://i.pinimg.com/474x/de/bd/b2/debdb24645169bf95eecd49f3144315f.jpg'
-global.packname = process.env.PACKNAME ||'ᴍɪʟʟɪᴇ-ᴍᴅ'
-global.author = process.env.AUTHOR ||'ɴᴇᴇʀᴀᴊ-x0'
+global.packname = process.env.PACKNAME ||'ᴀꜱɪᴀᴛᴀ-ᴍᴅ'
+global.author = process.env.AUTHOR ||'ᴀꜱɪᴀᴛᴀ-ᴍᴅ'
 global.name = 'Millie MULTI-DEVICE'
 global.session = process.env.SESSION_ID|| ''
-global.wm = process.env.WATERMARK|| 'ᴍɪʟʟɪᴇ-ᴍᴅ'
+global.wm = process.env.WATERMARK|| 'ᴀꜱɪᴀᴛᴀ-ᴍᴅ'
 global.owner_name = process.env.OWNER_NAME || 'Neeraj-x0'
 global.logsmsg = convertToBool(process.env.LOGS)|| false
 
@@ -71,7 +71,7 @@ function convertToBool(text, fault = 'true') {
 
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = 'neer_j_'
+global.bodlink = 'Thisan'
 global.wait = '_Please Wait_'
 global.eror = '_Something went wrong please try again later_'
 global.dtu = 'BOT HELP GROUP'
